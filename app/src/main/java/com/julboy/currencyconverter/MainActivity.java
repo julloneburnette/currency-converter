@@ -10,9 +10,9 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     public void convert(View view){
-        EditText display = (EditText)findViewById(R.id.editText);
+        EditText display1 = (EditText)findViewById(R.id.editText);
 
-        double dollar1 = Double.parseDouble(display.getText().toString());
+        double dollar1 = Double.parseDouble(display1.getText().toString());
 
         double poundAmount = dollar1 * 0.77;
 
